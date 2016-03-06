@@ -1,0 +1,22 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="save_state">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="questions_file_path" type="xsd:string" minOccurs="1" maxOccurs="1">
+					<!-- German part of vocables for example-->
+				</xsd:element>
+				<xsd:element name="answers_file_path" type="xsd:string" minOccurs="1" maxOccurs="1">
+					<!-- Pinyin part of vocables for example-->
+				</xsd:element>
+				<xsd:element name="additional_info_file_path" type="xsd:string" minOccurs="1" maxOccurs="1">
+					<!-- Chinese part of vocables for example-->
+				</xsd:element>
+
+				<xsd:element name="deactivated_questions" type="xsd:string" minOccurs="1" maxOccurs="1" />
+				<xsd:element name="training_process" type="xsd:string" minOccurs="1" maxOccurs="1">
+					<!-- Chinese part of vocables for example-->
+				</xsd:element>	
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

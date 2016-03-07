@@ -18,8 +18,8 @@ class TrainingState:
 			with open(file_path, 'w') as output_file:
 				output_content = {
 					'q_and_a_file_path': self.q_and_a_file_path,
-					'deactivated_questions': ','.join([str(item) for item in self.deactivated_questions]),
-					'training_process': ','.join(self.training_process)
+					'deactivated_questions': self.deactivated_questions,  #','.join([str(item) for item in self.deactivated_questions]),
+					'training_process': self.training_process
 				}
 				json.dump(output_content, output_file, ensure_ascii=False, indent='\t', sort_keys=True)
 				print(self.log_tag, 'Successfully saved state.')
@@ -40,8 +40,8 @@ class TrainingState:
 						# set application state from read save state
 						self.q_and_a = json.load(q_and_a_file)
 						self.q_and_a_file_path = q_and_a_file_path
-						self.training_process = read_state['training_process'].split(',', -1)
-						self.deactivated_questions = read_state['deactivated_questions'].split(',', -1)
+						self.training_process = read_state['training_process']
+						self.deactivated_questions = read_state['deactivated_questions']
 						self.asked_count = len(self.training_process)
 						self.correctly_answered_count = self.training_process.count('+') + self.training_process.count('d')
 						print(self.log_tag, 'Successfully loaded state.')

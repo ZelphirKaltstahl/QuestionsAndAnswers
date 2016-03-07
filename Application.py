@@ -6,6 +6,7 @@ from xml_parser.XMLParserException import XMLParserException
 from FileReader import FileReader
 from Statistic import Statistic
 from TrainingState import TrainingState
+from DefaultInputEventObserver import DefaultInputEventObserver
 
 class Application:
 	"""docstring for Application"""
@@ -22,6 +23,11 @@ class Application:
 
 		# Q&A Data
 		self.state.q_and_a = self.file_reader.read_json(q_and_a_file_path)
+
+		# Publish Subscribe
+		self.input_event_subscribers = []
+		new_subscriber = DefaultInputEventObserver()
+		self.register_input_event_subscriber(new_subscriber)
 
 	def run(self):
 		self.quiz()
@@ -54,15 +60,15 @@ class Application:
 	def print_help(self):
 		print(
 			'\nAvailable commands:',
-			'!d:deactivate',
 			'all:print all',
-			'exit:exit',
+			'd:deactivate',
 			'?:help',
 			'+:mark correctly answered',
 			'-:mark wrongly answered',
 			'save/write/persist:save training state',
 			'load/read/restore:load training state',
 			'stats:print statistics\n',
+			'exit:exit',
 			sep='\n',
 			end='\n'
 		)
@@ -83,7 +89,7 @@ class Application:
 			print('Answer: ', self.state.q_and_a['questions'][random_index]['answer'], ' (', self.state.q_and_a['questions'][random_index]['info'], ')', sep='')
 			user_input = input("Command ('?' for help):").lower()
 
-			if user_input == "!d":
+			if user_input == "d":
 				self.state.training_process[-1] = 'd'
 				self.state.deactivated_questions.append(random_index)
 				print(self.log_tag, 'Question deactivated.')
@@ -105,7 +111,8 @@ class Application:
 					random_index = self.state.get_random_index()
 			elif user_input in ['save', 'write', 'persist']: self.save_state(ask_file_name=True)
 			elif user_input == 'stats': Statistic.print_stats(self.state.training_process)
-			else: continue
+			
+			self.notify_input_event_subscribers(user_input, self.q_and_a.)  # TODO
 
 	def quiz(self):
 		print('\n' + self.log_tag, 'Starting quiz ...', end='\n\n')
@@ -129,3 +136,39 @@ class Application:
 			print('\nquestion #', index, ':', sep='')
 			for key,val in question.items():
 				print("{} : {}".format(key, val))
+
+	def register_input_event_subscriber(self, subscriber):
+		self.input_event_subscribers.append(subscriber)
+
+	def notify_input_event_subscribers(self, file_path, question_number, question_set_identifier, event=None):
+		if event == None:
+			for subscriber in self.input_event_subscribers:
+				subscriber.update()
+		else:
+			for subscriber in self.input_event_subscribers:
+				if user_input == '+':
+					subscriber.update_on_correct(question_number)
+				elif user_input == '-':
+					subscriber.update_on_incorrect(question_number)
+				elif user_input == 'd':
+					subscriber.update_on_deactivate(question_number)
+				elif user_input == '?':
+					subscriber.update_on_show_help()
+				elif user_input == 'all':
+					subscriber.update_on_show_all()
+				elif user_input == 'stats':
+					subscriber.update_on_show_stats()
+				elif user_input in ['load', 'read', 'restore']:
+					subscriber.update_on_load_training_state(file_path, question_set_identifier)
+				elif user_input in ['save', 'write', 'persist']:
+					subscriber.update_on_save_training_state(file_path, question_set_identifier)
+				elif user_input == 'exit':
+					subscriber.update_on_exit()
+				
+	def unsubscribe_input_event_subscriber(self, subscriber):
+		del self.input_event_subscribers[subscriber]
+				
+				
+				
+				
+

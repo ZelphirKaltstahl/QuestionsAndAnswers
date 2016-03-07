@@ -1,0 +1,755 @@
+{
+	"identifier": "HSK1",
+	"vocables": [
+		{
+			"first_language": "ich",
+			"info": "wǒ",
+			"second_language": "我"
+		},
+		{
+			"first_language": "von, (besitzanzeigendes Partikel)",
+			"info": "de",
+			"second_language": "的"
+		},
+		{
+			"first_language": "du",
+			"info": "nǐ",
+			"second_language": "你"
+		},
+		{
+			"first_language": "sein, ja",
+			"info": "shì",
+			"second_language": "是"
+		},
+		{
+			"first_language": "(Perfektpartikel), (Vergangenheitspartikel)",
+			"info": "le",
+			"second_language": "了"
+		},
+		{
+			"first_language": "nein, nicht",
+			"info": "bù",
+			"second_language": "不"
+		},
+		{
+			"first_language": "an einem Ort sein",
+			"info": "zài",
+			"second_language": "在"
+		},
+		{
+			"first_language": "er",
+			"info": "tā",
+			"second_language": "他"
+		},
+		{
+			"first_language": "wir",
+			"info": "wǒmen",
+			"second_language": "我们"
+		},
+		{
+			"first_language": "gut",
+			"info": "hǎo",
+			"second_language": "好"
+		},
+		{
+			"first_language": "haben, existieren",
+			"info": "yǒu",
+			"second_language": "有"
+		},
+		{
+			"first_language": "dies",
+			"info": "zhè",
+			"second_language": "这"
+		},
+		{
+			"first_language": "koennen (eine erlernte Faehigkeit)",
+			"info": "huì",
+			"second_language": "会"
+		},
+		{
+			"first_language": "(Fragepartikel)",
+			"info": "ma",
+			"second_language": "吗"
+		},
+		{
+			"first_language": "was",
+			"info": "shénme",
+			"second_language": "什么"
+		},
+		{
+			"first_language": "sagen, sprechen",
+			"info": "shuō",
+			"second_language": "说"
+		},
+		{
+			"first_language": "sie (Einzahl)",
+			"info": "tā",
+			"second_language": "她"
+		},
+		{
+			"first_language": "wollen, moechten",
+			"info": "xiǎng",
+			"second_language": "想"
+		},
+		{
+			"first_language": "eins",
+			"info": "yī",
+			"second_language": "一"
+		},
+		{
+			"first_language": "sehr",
+			"info": "hěn",
+			"second_language": "很"
+		},
+		{
+			"first_language": "Mensch, Person",
+			"info": "rén",
+			"second_language": "人"
+		},
+		{
+			"first_language": "jenes",
+			"info": "nà",
+			"second_language": "那"
+		},
+		{
+			"first_language": "kommen",
+			"info": "lái",
+			"second_language": "来"
+		},
+		{
+			"first_language": "alle",
+			"info": "dōu",
+			"second_language": "都"
+		},
+		{
+			"first_language": "ZEW (allgemein)",
+			"info": "gè",
+			"second_language": "个"
+		},
+		{
+			"first_language": "koennen (physikalisch moeglich)",
+			"info": "néng",
+			"second_language": "能"
+		},
+		{
+			"first_language": "hingehen",
+			"info": "qù",
+			"second_language": "去"
+		},
+		{
+			"first_language": "und",
+			"info": "hé",
+			"second_language": "和"
+		},
+		{
+			"first_language": "tun",
+			"info": "zuò",
+			"second_language": "做"
+		},
+		{
+			"first_language": "ueber, oben",
+			"info": "shàng",
+			"second_language": "上"
+		},
+		{
+			"first_language": "nicht, nicht haben",
+			"info": "méiyǒu",
+			"second_language": "没有"
+		},
+		{
+			"first_language": "sehen",
+			"info": "kàn",
+			"second_language": "看"
+		},
+		{
+			"first_language": "wie (2 Zeichen)",
+			"info": "zěnme",
+			"second_language": "怎么"
+		},
+		{
+			"first_language": "jetzt",
+			"info": "xiànzài",
+			"second_language": "现在"
+		},
+		{
+			"first_language": "Punkt, Komma, Stunde",
+			"info": "diǎn",
+			"second_language": "点"
+		},
+		{
+			"first_language": "(Fragepartikel\"Und du?\")",
+			"info": "ne",
+			"second_language": "呢"
+		},
+		{
+			"first_language": "zu (viel, sehr, ...)",
+			"info": "tài",
+			"second_language": "太"
+		},
+		{
+			"first_language": "innen",
+			"info": "lǐ",
+			"second_language": "里"
+		},
+		{
+			"first_language": "hoeren",
+			"info": "tīng",
+			"second_language": "听"
+		},
+		{
+			"first_language": "wer",
+			"info": "shéi",
+			"second_language": "谁"
+		},
+		{
+			"first_language": "viel",
+			"info": "duō",
+			"second_language": "多"
+		},
+		{
+			"first_language": "Zeitpunkt, Zeit",
+			"info": "shíhou",
+			"second_language": "时候"
+		},
+		{
+			"first_language": "unten, unter",
+			"info": "xià",
+			"second_language": "下"
+		},
+		{
+			"first_language": "danke",
+			"info": "xièxie",
+			"second_language": "谢谢"
+		},
+		{
+			"first_language": "Herr (Anrede)",
+			"info": "xiānsheng",
+			"second_language": "先生"
+		},
+		{
+			"first_language": "moegen",
+			"info": "xǐhuan",
+			"second_language": "喜欢"
+		},
+		{
+			"first_language": "groß",
+			"info": "dà",
+			"second_language": "大"
+		},
+		{
+			"first_language": "Ding, Sache",
+			"info": "dōngxī",
+			"second_language": "东西"
+		},
+		{
+			"first_language": "klein",
+			"info": "xiǎo",
+			"second_language": "小"
+		},
+		{
+			"first_language": "heißen, genannt werden",
+			"info": "jiào",
+			"second_language": "叫"
+		},
+		{
+			"first_language": "lieben",
+			"info": "ài",
+			"second_language": "爱"
+		},
+		{
+			"first_language": "Jahr",
+			"info": "nián",
+			"second_language": "年"
+		},
+		{
+			"first_language": "bitten, einladen",
+			"info": "qǐng",
+			"second_language": "请"
+		},
+		{
+			"first_language": "zurueckgehen",
+			"info": "huí",
+			"second_language": "回"
+		},
+		{
+			"first_language": "arbeiten, Arbeit, Job",
+			"info": "gōngzuò",
+			"second_language": "工作"
+		},
+		{
+			"first_language": "Geld",
+			"info": "qián",
+			"second_language": "钱"
+		},
+		{
+			"first_language": "essen",
+			"info": "chī",
+			"second_language": "吃"
+		},
+		{
+			"first_language": "oeffnen, beginnen",
+			"info": "kāi",
+			"second_language": "开"
+		},
+		{
+			"first_language": "Familie",
+			"info": "jiā",
+			"second_language": "家"
+		},
+		{
+			"first_language": "welche, welcher, welches",
+			"info": "nǎ",
+			"second_language": "哪"
+		},
+		{
+			"first_language": "Freund",
+			"info": "péngyou",
+			"second_language": "朋友"
+		},
+		{
+			"first_language": "Mutter",
+			"info": "māma",
+			"second_language": "妈妈"
+		},
+		{
+			"first_language": "heute",
+			"info": "jīntiān",
+			"second_language": "今天"
+		},
+		{
+			"first_language": "einige, wie viele (1 Zeichen)",
+			"info": "jǐ",
+			"second_language": "几"
+		},
+		{
+			"first_language": "Vater",
+			"info": "bàba",
+			"second_language": "爸爸"
+		},
+		{
+			"first_language": "wenige, einige",
+			"info": "xiē",
+			"second_language": "些"
+		},
+		{
+			"first_language": "wie (3 Zeichen)",
+			"info": "zěnmeyàng",
+			"second_language": "怎么样"
+		},
+		{
+			"first_language": "entschuldigung",
+			"info": "duìbuqǐ",
+			"second_language": "对不起"
+		},
+		{
+			"first_language": "leben, wohnen, bleiben",
+			"info": "zhù",
+			"second_language": "住"
+		},
+		{
+			"first_language": "drei",
+			"info": "sǎn",
+			"second_language": "三"
+		},
+		{
+			"first_language": "erfreut sein, sich freuen",
+			"info": "gāoxìng",
+			"second_language": "高兴"
+		},
+		{
+			"first_language": "kaufen",
+			"info": "mǎi",
+			"second_language": "买"
+		},
+		{
+			"first_language": "Arzt",
+			"info": "yīshēng",
+			"second_language": "医生"
+		},
+		{
+			"first_language": "wo (Fragepartikel)",
+			"info": "nǎer",
+			"second_language": "哪儿"
+		},
+		{
+			"first_language": "Name",
+			"info": "míngzi",
+			"second_language": "名字"
+		},
+		{
+			"first_language": "kennenlernen, kennen",
+			"info": "rènshi",
+			"second_language": "认识"
+		},
+		{
+			"first_language": "sitzen",
+			"info": "zuò",
+			"second_language": "坐"
+		},
+		{
+			"first_language": "trinken",
+			"info": "hē",
+			"second_language": "喝"
+		},
+		{
+			"first_language": "schreiben",
+			"info": "xiě",
+			"second_language": "写"
+		},
+		{
+			"first_language": "Monat",
+			"info": "yuè",
+			"second_language": "月"
+		},
+		{
+			"first_language": "Nummer",
+			"info": "hào",
+			"second_language": "号"
+		},
+		{
+			"first_language": "Hund",
+			"info": "gǒu",
+			"second_language": "狗"
+		},
+		{
+			"first_language": "Jahre alt sein",
+			"info": "suì",
+			"second_language": "岁"
+		},
+		{
+			"first_language": "sehen (2 Zeichen)",
+			"info": "kànjiàn",
+			"second_language": "看见"
+		},
+		{
+			"first_language": "mit einem Telefon anrufen",
+			"info": "dǎdiànhuà",
+			"second_language": "打电话"
+		},
+		{
+			"first_language": "Hallo (am Telefon)",
+			"info": "wéi",
+			"second_language": "喂"
+		},
+		{
+			"first_language": "Sohn",
+			"info": "érzi",
+			"second_language": "儿子"
+		},
+		{
+			"first_language": "huebsch, schoen",
+			"info": "piàoliang",
+			"second_language": "漂亮"
+		},
+		{
+			"first_language": "Minute",
+			"info": "fēnzhōng",
+			"second_language": "分钟"
+		},
+		{
+			"first_language": "auf Wiedersehen",
+			"info": "zàijiàn",
+			"second_language": "再见"
+		},
+		{
+			"first_language": "ZEW (Buecher), Wurzel",
+			"info": "běn",
+			"second_language": "本"
+		},
+		{
+			"first_language": "morgen",
+			"info": "míngtiān",
+			"second_language": "明天"
+		},
+		{
+			"first_language": "wie viel (2 Zeichen)",
+			"info": "duōshao",
+			"second_language": "多少"
+		},
+		{
+			"first_language": "ZEW (Geld, Waehrungseinheiten z.B. 1 Yuan)",
+			"info": "kuài",
+			"second_language": "块"
+		},
+		{
+			"first_language": "Tochter",
+			"info": "nǚer",
+			"second_language": "女儿"
+		},
+		{
+			"first_language": "Fraeulein",
+			"info": "xiǎojiě",
+			"second_language": "小姐"
+		},
+		{
+			"first_language": "Kleidung",
+			"info": "yīfu",
+			"second_language": "衣服"
+		},
+		{
+			"first_language": "Wasser",
+			"info": "shuǐ",
+			"second_language": "水"
+		},
+		{
+			"first_language": "Schule",
+			"info": "xuéxiào",
+			"second_language": "学校"
+		},
+		{
+			"first_language": "Film",
+			"info": "diànyǐng",
+			"second_language": "电影"
+		},
+		{
+			"first_language": "Buch",
+			"info": "shū",
+			"second_language": "书"
+		},
+		{
+			"first_language": "vier, 4",
+			"info": "sì",
+			"second_language": "四"
+		},
+		{
+			"first_language": "fuenf, 5",
+			"info": "wǔ",
+			"second_language": "五"
+		},
+		{
+			"first_language": "Krankenhaus",
+			"info": "yīyuàn",
+			"second_language": "医院"
+		},
+		{
+			"first_language": "wenige",
+			"info": "shǎo",
+			"second_language": "少"
+		},
+		{
+			"first_language": "es tut nichts zur Sache, es macht nichts, es ist egal",
+			"info": "méiguānxi",
+			"second_language": "没关系"
+		},
+		{
+			"first_language": "Flugzeug",
+			"info": "fēijī",
+			"second_language": "飞机"
+		},
+		{
+			"first_language": "zwei, 2",
+			"info": "èr",
+			"second_language": "二"
+		},
+		{
+			"first_language": "Fernseher",
+			"info": "diànshì",
+			"second_language": "电视"
+		},
+		{
+			"first_language": "vorlesen, lesen, studieren",
+			"info": "dú",
+			"second_language": "读"
+		},
+		{
+			"first_language": "hinter, nach",
+			"info": "hòumian",
+			"second_language": "后面"
+		},
+		{
+			"first_language": "gestern",
+			"info": "zuótiān",
+			"second_language": "昨天"
+		},
+		{
+			"first_language": "schlafen",
+			"info": "shuìjiào",
+			"second_language": "睡觉"
+		},
+		{
+			"first_language": "sechs, 6",
+			"info": "liù",
+			"second_language": "六"
+		},
+		{
+			"first_language": "Lehrer",
+			"info": "lǎoshī",
+			"second_language": "老师"
+		},
+		{
+			"first_language": "Woche (2 Zeichen)",
+			"info": "xīngqī",
+			"second_language": "星期"
+		},
+		{
+			"first_language": "zehn, 10",
+			"info": "shí",
+			"second_language": "十"
+		},
+		{
+			"first_language": "Katze",
+			"info": "māo",
+			"second_language": "猫"
+		},
+		{
+			"first_language": "Computer, Rechner",
+			"info": "diànnǎo",
+			"second_language": "电脑"
+		},
+		{
+			"first_language": "aufwaermen, heiß, aufheizen, Hitze",
+			"info": "rè",
+			"second_language": "热"
+		},
+		{
+			"first_language": "Schueler",
+			"info": "xuésheng",
+			"second_language": "学生"
+		},
+		{
+			"first_language": "naechstes Jahr",
+			"info": "míngnián",
+			"second_language": "明年"
+		},
+		{
+			"first_language": "Zeichen",
+			"info": "zì",
+			"second_language": "字"
+		},
+		{
+			"first_language": "lernen, studieren",
+			"info": "xuéxí",
+			"second_language": "学习"
+		},
+		{
+			"first_language": "kalt",
+			"info": "lěng",
+			"second_language": "冷"
+		},
+		{
+			"first_language": "vor, vorher (oertlich)",
+			"info": "qiánmiàn",
+			"second_language": "前面"
+		},
+		{
+			"first_language": "acht, 8",
+			"info": "bā",
+			"second_language": "八"
+		},
+		{
+			"first_language": "China",
+			"info": "zhōngguó",
+			"second_language": "中国"
+		},
+		{
+			"first_language": "sieben, 7",
+			"info": "qī",
+			"second_language": "七"
+		},
+		{
+			"first_language": "Speise, Gericht, Gemuese, Kueche (einer Region)",
+			"info": "cài",
+			"second_language": "菜"
+		},
+		{
+			"first_language": "Tisch",
+			"info": "zhuōzi",
+			"second_language": "桌子"
+		},
+		{
+			"first_language": "Taxi",
+			"info": "chūzūchē",
+			"second_language": "出租车"
+		},
+		{
+			"first_language": "Wetter",
+			"info": "tiānqì",
+			"second_language": "天气"
+		},
+		{
+			"first_language": "Tee",
+			"info": "chá",
+			"second_language": "茶"
+		},
+		{
+			"first_language": "neun, 9",
+			"info": "jiǔ",
+			"second_language": "九"
+		},
+		{
+			"first_language": "Laden, Einkaufsladen, Shop",
+			"info": "shāngdiàn",
+			"second_language": "商店"
+		},
+		{
+			"first_language": "Stuhl",
+			"info": "yǐzi",
+			"second_language": "椅子"
+		},
+		{
+			"first_language": "Mitschueler, Mitstudent",
+			"info": "tóngxué",
+			"second_language": "同学"
+		},
+		{
+			"first_language": "ein bisschen, ein wenig, eine Spur",
+			"info": "yīdiǎner",
+			"second_language": "一点儿"
+		},
+		{
+			"first_language": "Apfel",
+			"info": "píngguǒ",
+			"second_language": "苹果"
+		},
+		{
+			"first_language": "Restaurant, Hotel, Gasthaus",
+			"info": "fàndiàn",
+			"second_language": "饭店"
+		},
+		{
+			"first_language": "Mittag",
+			"info": "zhōngwǔ",
+			"second_language": "中午"
+		},
+		{
+			"first_language": "Vormittag",
+			"info": "shàngwǔ",
+			"second_language": "上午"
+		},
+		{
+			"first_language": "Obst",
+			"info": "shuǐguǒ",
+			"second_language": "水果"
+		},
+		{
+			"first_language": "Becher, Glas, Tasse",
+			"info": "bēizi",
+			"second_language": "杯子"
+		},
+		{
+			"first_language": "regnen",
+			"info": "xiàyǔ",
+			"second_language": "下雨"
+		},
+		{
+			"first_language": "gekochter Reis, zubereiteter Reis",
+			"info": "mǐfàn",
+			"second_language": "米饭"
+		},
+		{
+			"first_language": "Beijing",
+			"info": "běijīng",
+			"second_language": "北京"
+		},
+		{
+			"first_language": "Chinesisch (Sprache der Han)",
+			"info": "hànyǔ",
+			"second_language": "汉语"
+		},
+		{
+			"first_language": "Satz: Keine Ursache!, Satz: Bitte schoen!",
+			"info": "bùkèqi",
+			"second_language": "不客气"
+		}
+	]
+}

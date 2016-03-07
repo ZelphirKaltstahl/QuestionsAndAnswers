@@ -43,3 +43,5 @@ class StatisticsWriter:
 if __name__ == '__main__':
 	writer = StatisticsWriter()
 	writer.save()
+
+	

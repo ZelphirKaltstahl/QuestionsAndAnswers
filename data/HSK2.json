@@ -1,760 +1,760 @@
 {
 	"identifier": "HSK2",
-	"vocables": [
+	"questions": [
 		{
-			"first_language": "(Strukturpartikel, das fuer viele Strukturen verwendet wird)",
+			"answer": "就",
 			"info": "jiù",
-			"second_language": "就"
+			"question": "(Strukturpartikel, das fuer viele Strukturen verwendet wird)"
 		},
 		{
-			"first_language": "wollen, muessen",
+			"answer": "要",
 			"info": "yào",
-			"second_language": "要"
+			"question": "wollen, muessen"
 		},
 		{
-			"first_language": "wissen",
+			"answer": "知道",
 			"info": "zhīdào",
-			"second_language": "知道"
+			"question": "wissen"
 		},
 		{
-			"first_language": "(Modalpartikel fuer Vorschlaege)",
+			"answer": "吧",
 			"info": "ba",
-			"second_language": "吧"
+			"question": "(Modalpartikel fuer Vorschlaege)"
 		},
 		{
-			"first_language": "ankommen, bis, zu (einem Ort), (2. Teil von \"von ... bis ...\")",
+			"answer": "到",
 			"info": "dào",
-			"second_language": "到"
+			"question": "ankommen, bis, zu (einem Ort), (2. Teil von \"von ... bis ...\")"
 		},
 		{
-			"first_language": "richtig",
+			"answer": "对",
 			"info": "duì",
-			"second_language": "对"
+			"question": "richtig"
 		},
 		{
-			"first_language": "auch",
+			"answer": "也",
 			"info": "yě",
-			"second_language": "也"
+			"question": "auch"
 		},
 		{
-			"first_language": "noch, zurueckgeben",
+			"answer": "还",
 			"info": "hái, huán",
-			"second_language": "还"
+			"question": "noch, zurueckgeben"
 		},
 		{
-			"first_language": "lassen, gestatten",
+			"answer": "让",
 			"info": "ràng",
-			"second_language": "让"
+			"question": "lassen, gestatten"
 		},
 		{
-			"first_language": "fuer",
+			"answer": "给",
 			"info": "gěi",
-			"second_language": "给"
+			"question": "fuer"
 		},
 		{
-			"first_language": "(Zeit) verbringen, (Vergangenheitspartikel), leben, zurechtkommen",
+			"answer": "过",
 			"info": "guò",
-			"second_language": "过"
+			"question": "(Zeit) verbringen, (Vergangenheitspartikel), leben, zurechtkommen"
 		},
 		{
-			"first_language": "(Strukturpartikel nach einem Verb um das Verb weiter zu beschreiben), muessen",
+			"answer": "得",
 			"info": "de",
-			"second_language": "得"
+			"question": "(Strukturpartikel nach einem Verb um das Verb weiter zu beschreiben), muessen"
 		},
 		{
-			"first_language": "wirklich, wahrhaftig",
+			"answer": "真",
 			"info": "zhēn",
-			"second_language": "真"
+			"question": "wirklich, wahrhaftig"
 		},
 		{
-			"first_language": "(Aspektpartikel, deutet auf einen Vorgang hin)",
+			"answer": "着",
 			"info": "zhe",
-			"second_language": "着"
+			"question": "(Aspektpartikel, deutet auf einen Vorgang hin)"
 		},
 		{
-			"first_language": "koennen, duerfen",
+			"answer": "可以",
 			"info": "kěyǐ",
-			"second_language": "可以"
+			"question": "koennen, duerfen"
 		},
 		{
-			"first_language": "nicht (Imperativ), anderes",
+			"answer": "别",
 			"info": "bié",
-			"second_language": "别"
+			"question": "nicht (Imperativ), anderes"
 		},
 		{
-			"first_language": "losgehen, gehen",
+			"answer": "走",
 			"info": "zǒu",
-			"second_language": "走"
+			"question": "losgehen, gehen"
 		},
 		{
-			"first_language": "erzaehlen",
+			"answer": "告诉",
 			"info": "gàosu",
-			"second_language": "告诉"
+			"question": "erzaehlen"
 		},
 		{
-			"first_language": "weil, wegen (1. Wort von \"aus x folgt y\")",
+			"answer": "因为",
 			"info": "yīnwèi",
-			"second_language": "因为"
+			"question": "weil, wegen (1. Wort von \"aus x folgt y\")"
 		},
 		{
-			"first_language": "wieder (in der Zukunft)",
+			"answer": "再",
 			"info": "zài",
-			"second_language": "再"
+			"question": "wieder (in der Zukunft)"
 		},
 		{
-			"first_language": "schnell",
+			"answer": "快",
 			"info": "kuài",
-			"second_language": "快"
+			"question": "schnell"
 		},
 		{
-			"first_language": "aber (wenn sich die Situation aendert)",
+			"answer": "但是",
 			"info": "dànshì",
-			"second_language": "但是"
+			"question": "aber (wenn sich die Situation aendert)"
 		},
 		{
-			"first_language": "schon",
+			"answer": "已经",
 			"info": "yǐjīng",
-			"second_language": "已经"
+			"question": "schon"
 		},
 		{
-			"first_language": "warum",
+			"answer": "为什么",
 			"info": "wèishénme",
-			"second_language": "为什么"
+			"question": "warum"
 		},
 		{
-			"first_language": "denken, fuehlen",
+			"answer": "觉得",
 			"info": "juéde",
-			"second_language": "觉得"
+			"question": "denken, fuehlen"
 		},
 		{
-			"first_language": "es",
+			"answer": "它",
 			"info": "tā",
-			"second_language": "它"
+			"question": "es"
 		},
 		{
-			"first_language": "von (1. Teil von von ... bis ...)",
+			"answer": "从",
 			"info": "cóng",
-			"second_language": "从"
+			"question": "von (1. Teil von von ... bis ...)"
 		},
 		{
-			"first_language": "suchen, jemanden rufen",
+			"answer": "找",
 			"info": "zhǎo",
-			"second_language": "找"
+			"question": "suchen, jemanden rufen"
 		},
 		{
-			"first_language": "am meisten + adj., (Nutzung fuer die Bildung des Superlativs)",
+			"answer": "最",
 			"info": "zuì",
-			"second_language": "最"
+			"question": "am meisten + adj., (Nutzung fuer die Bildung des Superlativs)"
 		},
 		{
-			"first_language": "moeglicherweise, vielleicht",
+			"answer": "可能",
 			"info": "kěnéng",
-			"second_language": "可能"
+			"question": "moeglicherweise, vielleicht"
 		},
 		{
-			"first_language": "mal (ein Mal trafen wir uns)",
+			"answer": "次",
 			"info": "cì",
-			"second_language": "次"
+			"question": "mal (ein Mal trafen wir uns)"
 		},
 		{
-			"first_language": "rausgehen",
+			"answer": "出",
 			"info": "chū",
-			"second_language": "出"
+			"question": "rausgehen"
 		},
 		{
-			"first_language": "Kind",
+			"answer": "孩子",
 			"info": "háizi",
-			"second_language": "孩子"
+			"question": "Kind"
 		},
 		{
-			"first_language": "deswegen (2. Teil von \"aus x folgt y\")",
+			"answer": "所以",
 			"info": "suǒyǐ",
-			"second_language": "所以"
+			"question": "deswegen (2. Teil von \"aus x folgt y\")"
 		},
 		{
-			"first_language": "zwei (vor ZEWs)",
+			"answer": "两",
 			"info": "liǎng",
-			"second_language": "两"
+			"question": "zwei (vor ZEWs)"
 		},
 		{
-			"first_language": "Fehler",
+			"answer": "错",
 			"info": "cuò",
-			"second_language": "错"
+			"question": "Fehler"
 		},
 		{
-			"first_language": "warten",
+			"answer": "等",
 			"info": "děng",
-			"second_language": "等"
+			"question": "warten"
 		},
 		{
-			"first_language": "Frage, Problem",
+			"answer": "问题",
 			"info": "wèntí",
-			"second_language": "问题"
+			"question": "Frage, Problem"
 		},
 		{
-			"first_language": "zusammen",
+			"answer": "一起",
 			"info": "yīqǐ",
-			"second_language": "一起"
+			"question": "zusammen"
 		},
 		{
-			"first_language": "beginnen, anfangen, starten",
+			"answer": "开始",
 			"info": "kāishǐ",
-			"second_language": "开始"
+			"question": "beginnen, anfangen, starten"
 		},
 		{
-			"first_language": "Zeit, Zeitraum",
+			"answer": "时间",
 			"info": "shíjiān",
-			"second_language": "时间"
+			"question": "Zeit, Zeitraum"
 		},
 		{
-			"first_language": "Angelegenheit, Sache, Geschaeft",
+			"answer": "事情",
 			"info": "shìqing",
-			"second_language": "事情"
+			"question": "Angelegenheit, Sache, Geschaeft"
 		},
 		{
-			"first_language": "etwas fuer eine kurze Zeit tun, einmal",
+			"answer": "一下",
 			"info": "yīxià",
-			"second_language": "一下"
+			"question": "etwas fuer eine kurze Zeit tun, einmal"
 		},
 		{
-			"first_language": "außerordentlich, ungewoehnlich, extrem",
+			"answer": "非常",
 			"info": "fēicháng",
-			"second_language": "非常"
+			"question": "außerordentlich, ungewoehnlich, extrem"
 		},
 		{
-			"first_language": "wuenschen, hoffen",
+			"answer": "希望",
 			"info": "xīwàng",
-			"second_language": "希望"
+			"question": "wuenschen, hoffen"
 		},
 		{
-			"first_language": "vorbereiten",
+			"answer": "准备",
 			"info": "zhǔnbèi",
-			"second_language": "准备"
+			"question": "vorbereiten"
 		},
 		{
-			"first_language": "(Partikel, zum Vergleich mittels Komparativ verwendet)",
+			"answer": "比",
 			"info": "bǐ",
-			"second_language": "比"
+			"question": "(Partikel, zum Vergleich mittels Komparativ verwendet)"
 		},
 		{
-			"first_language": "fragen",
+			"answer": "问",
 			"info": "wèn",
-			"second_language": "问"
+			"question": "fragen"
 		},
 		{
-			"first_language": "ZEW fuer Kleidungsstuecke",
+			"answer": "件",
 			"info": "jiàn",
-			"second_language": "件"
+			"question": "ZEW fuer Kleidungsstuecke"
 		},
 		{
-			"first_language": "Idee, Bedeutung, Meinung",
+			"answer": "意思",
 			"info": "yìsi",
-			"second_language": "意思"
+			"question": "Idee, Bedeutung, Meinung"
 		},
 		{
-			"first_language": "erste",
+			"answer": "第一",
 			"info": "dìyī",
-			"second_language": "第一"
+			"question": "erste"
 		},
 		{
-			"first_language": "eintreten",
+			"answer": "进",
 			"info": "jìn",
-			"second_language": "进"
+			"question": "eintreten"
 		},
 		{
-			"first_language": "jeder (auch Anrede vor einer Menge von Leuten)",
+			"answer": "大家",
 			"info": "dàjiā",
-			"second_language": "大家"
+			"question": "jeder (auch Anrede vor einer Menge von Leuten)"
 		},
 		{
-			"first_language": "neu",
+			"answer": "新",
 			"info": "xīn",
-			"second_language": "新"
+			"question": "neu"
 		},
 		{
-			"first_language": "Sie (Hoeflichkeitsform)",
+			"answer": "您",
 			"info": "nín",
-			"second_language": "您"
+			"question": "Sie (Hoeflichkeitsform)"
 		},
 		{
-			"first_language": "tragen (Kleidung), anziehen",
+			"answer": "穿",
 			"info": "chuān",
-			"second_language": "穿"
+			"question": "tragen (Kleidung), anziehen"
 		},
 		{
-			"first_language": "abliefern, geben, senden",
+			"answer": "送",
 			"info": "sòng",
-			"second_language": "送"
+			"question": "abliefern, geben, senden"
 		},
 		{
-			"first_language": "amuesieren, spielen, Spaß haben",
+			"answer": "玩",
 			"info": "wán",
-			"second_language": "玩"
+			"question": "amuesieren, spielen, Spaß haben"
 		},
 		{
-			"first_language": "lang",
+			"answer": "长",
 			"info": "cháng",
-			"second_language": "长"
+			"question": "lang"
 		},
 		{
-			"first_language": "Stunde",
+			"answer": "小时",
 			"info": "xiǎoshí",
-			"second_language": "小时"
+			"question": "Stunde"
 		},
 		{
-			"first_language": "fertigstellen, ganz, komplett",
+			"answer": "完",
 			"info": "wán",
-			"second_language": "完"
+			"question": "fertigstellen, ganz, komplett"
 		},
 		{
-			"first_language": "jedes (Jeden morgen esse ich 饺子.)",
+			"answer": "每",
 			"info": "měi",
-			"second_language": "每"
+			"question": "jedes (Jeden morgen esse ich 饺子.)"
 		},
 		{
-			"first_language": "Unternehmen, Firma",
+			"answer": "公司",
 			"info": "gōngsī",
-			"second_language": "公司"
+			"question": "Unternehmen, Firma"
 		},
 		{
-			"first_language": "helfen",
+			"answer": "帮助",
 			"info": "bāngzhù",
-			"second_language": "帮助"
+			"question": "helfen"
 		},
 		{
-			"first_language": "Abend",
+			"answer": "晚上",
 			"info": "wǎnshàng",
-			"second_language": "晚上"
+			"question": "Abend"
 		},
 		{
-			"first_language": "sprechen, sagen",
+			"answer": "说话",
 			"info": "shuōhuà",
-			"second_language": "说话"
+			"question": "sprechen, sagen"
 		},
 		{
-			"first_language": "Tor, Tuer",
+			"answer": "门",
 			"info": "mén",
-			"second_language": "门"
+			"question": "Tor, Tuer"
 		},
 		{
-			"first_language": "weiblich, Frau, Tochter",
+			"answer": "女",
 			"info": "nǚ",
-			"second_language": "女"
+			"question": "weiblich, Frau, Tochter"
 		},
 		{
-			"first_language": "beschaeftigt",
+			"answer": "忙",
 			"info": "máng",
-			"second_language": "忙"
+			"question": "beschaeftigt"
 		},
 		{
-			"first_language": "verkaufen",
+			"answer": "卖",
 			"info": "mài",
-			"second_language": "卖"
+			"question": "verkaufen"
 		},
 		{
-			"first_language": "hoch, groß",
+			"answer": "高",
 			"info": "gāo",
-			"second_language": "高"
+			"question": "hoch, groß"
 		},
 		{
-			"first_language": "Raum",
+			"answer": "房间",
 			"info": "fángjiān",
-			"second_language": "房间"
+			"question": "Raum"
 		},
 		{
-			"first_language": "Straße",
+			"answer": "路",
 			"info": "lù",
-			"second_language": "路"
+			"question": "Straße"
 		},
 		{
-			"first_language": "verstehen",
+			"answer": "懂",
 			"info": "dǒng",
-			"second_language": "懂"
+			"question": "verstehen"
 		},
 		{
-			"first_language": "gerade, in dem Moment",
+			"answer": "正在",
 			"info": "zhèngzài",
-			"second_language": "正在"
+			"question": "gerade, in dem Moment"
 		},
 		{
-			"first_language": "lachen, laecheln",
+			"answer": "笑",
 			"info": "xiào",
-			"second_language": "笑"
+			"question": "lachen, laecheln"
 		},
 		{
-			"first_language": "weit, entfernt, weit entfernt",
+			"answer": "远",
 			"info": "yuǎn",
-			"second_language": "远"
+			"question": "weit, entfernt, weit entfernt"
 		},
 		{
-			"first_language": "Ehefrau, Ehefrau und Kinder",
+			"answer": "妻子",
 			"info": "qīzǐ",
-			"second_language": "妻子"
+			"question": "Ehefrau, Ehefrau und Kinder"
 		},
 		{
-			"first_language": "Ehemann",
+			"answer": "丈夫",
 			"info": "zhàngfu",
-			"second_language": "丈夫"
+			"question": "Ehemann"
 		},
 		{
-			"first_language": "weg sein von, verlassen",
+			"answer": "离",
 			"info": "lí",
-			"second_language": "离"
+			"question": "weg sein von, verlassen"
 		},
 		{
-			"first_language": "in eine Richtung gehen",
+			"answer": "往",
 			"info": "wǎng",
-			"second_language": "往"
+			"question": "in eine Richtung gehen"
 		},
 		{
-			"first_language": "maennlich",
+			"answer": "男",
 			"info": "nán",
-			"second_language": "男"
+			"question": "maennlich"
 		},
 		{
-			"first_language": "Auge",
+			"answer": "眼睛",
 			"info": "yǎnjing",
-			"second_language": "眼睛"
+			"question": "Auge"
 		},
 		{
-			"first_language": "gluecklich",
+			"answer": "快乐",
 			"info": "kuàilè",
-			"second_language": "快乐"
+			"question": "gluecklich"
 		},
 		{
-			"first_language": "obwohl",
+			"answer": "虽然",
 			"info": "suīrán",
-			"second_language": "虽然"
+			"question": "obwohl"
 		},
 		{
-			"first_language": "morgens",
+			"answer": "早上",
 			"info": "zǎoshàng",
-			"second_language": "早上"
+			"question": "morgens"
 		},
 		{
-			"first_language": "Medizin",
+			"answer": "药",
 			"info": "yào",
-			"second_language": "药"
+			"question": "Medizin"
 		},
 		{
-			"first_language": "Koerper, Gesundheit",
+			"answer": "身体",
 			"info": "shēntǐ",
-			"second_language": "身体"
+			"question": "Koerper, Gesundheit"
 		},
 		{
-			"first_language": "schwarz",
+			"answer": "黑",
 			"info": "hēi",
-			"second_language": "黑"
+			"question": "schwarz"
 		},
 		{
-			"first_language": "Kaffee",
+			"answer": "咖啡",
 			"info": "kāfēi",
-			"second_language": "咖啡"
+			"question": "Kaffee"
 		},
 		{
-			"first_language": "Sonne, Tag",
+			"answer": "日",
 			"info": "rì",
-			"second_language": "日"
+			"question": "Sonne, Tag"
 		},
 		{
-			"first_language": "sich ausruhen",
+			"answer": "休息",
 			"info": "xiūxi",
-			"second_language": "休息"
+			"question": "sich ausruhen"
 		},
 		{
-			"first_language": "außen, außerhalb, fremd",
+			"answer": "外",
 			"info": "wài",
-			"second_language": "外"
+			"question": "außen, außerhalb, fremd"
 		},
 		{
-			"first_language": "Geburtstag",
+			"answer": "生日",
 			"info": "shēngrì",
-			"second_language": "生日"
+			"question": "Geburtstag"
 		},
 		{
-			"first_language": "aelterer Bruder",
+			"answer": "哥哥",
 			"info": "gēge",
-			"second_language": "哥哥"
+			"question": "aelterer Bruder"
 		},
 		{
-			"first_language": "Ticket",
+			"answer": "票",
 			"info": "piào",
-			"second_language": "票"
+			"question": "Ticket"
 		},
 		{
-			"first_language": "mobile phone",
+			"answer": "手机",
 			"info": "shǒujī",
-			"second_language": "手机"
+			"question": "mobile phone"
 		},
 		{
-			"first_language": "waschen",
+			"answer": "洗",
 			"info": "xǐ",
-			"second_language": "洗"
+			"question": "waschen"
 		},
 		{
-			"first_language": "tanzen",
+			"answer": "跳舞",
 			"info": "tiàowǔ",
-			"second_language": "跳舞"
+			"question": "tanzen"
 		},
 		{
-			"first_language": "juengerer Bruder",
+			"answer": "弟弟",
 			"info": "dìdi",
-			"second_language": "弟弟"
+			"question": "juengerer Bruder"
 		},
 		{
-			"first_language": "juengere Schwester",
+			"answer": "妹妹",
 			"info": "mèimei",
-			"second_language": "妹妹"
+			"question": "juengere Schwester"
 		},
 		{
-			"first_language": "rot",
+			"answer": "红",
 			"info": "hóng",
-			"second_language": "红"
+			"question": "rot"
 		},
 		{
-			"first_language": "langsam",
+			"answer": "慢",
 			"info": "màn",
-			"second_language": "慢"
+			"question": "langsam"
 		},
 		{
-			"first_language": "nah, ungefaehr",
+			"answer": "近",
 			"info": "jìn",
-			"second_language": "近"
+			"question": "nah, ungefaehr"
 		},
 		{
-			"first_language": "weiß, hell",
+			"answer": "白",
 			"info": "bái",
-			"second_language": "白"
+			"question": "weiß, hell"
 		},
 		{
-			"first_language": "aeltere Schwester",
+			"answer": "姐姐",
 			"info": "jiějie",
-			"second_language": "姐姐"
+			"question": "aeltere Schwester"
 		},
 		{
-			"first_language": "vorstellen, sich vorstellen",
+			"answer": "介绍",
 			"info": "jièshào",
-			"second_language": "介绍"
+			"question": "vorstellen, sich vorstellen"
 		},
 		{
-			"first_language": "Fisch",
+			"answer": "鱼",
 			"info": "yú",
-			"second_language": "鱼"
+			"question": "Fisch"
 		},
 		{
-			"first_language": "muede, erschoepft",
+			"answer": "累",
 			"info": "lèi",
-			"second_language": "累"
+			"question": "muede, erschoepft"
 		},
 		{
-			"first_language": "Unterrichtsstunde, Vorlesung",
+			"answer": "课",
 			"info": "kè",
-			"second_language": "课"
+			"question": "Unterrichtsstunde, Vorlesung"
 		},
 		{
-			"first_language": "anfangen zu arbeiten",
+			"answer": "上班",
 			"info": "shàngbān",
-			"second_language": "上班"
+			"question": "anfangen zu arbeiten"
 		},
 		{
-			"first_language": "neben",
+			"answer": "旁边",
 			"info": "pángbiān",
-			"second_language": "旁边"
+			"question": "neben"
 		},
 		{
-			"first_language": "trainieren, Sport machen, sich bewegen",
+			"answer": "运动",
 			"info": "yùndòng",
-			"second_language": "运动"
+			"question": "trainieren, Sport machen, sich bewegen"
 		},
 		{
-			"first_language": "vorheriges Jahr",
+			"answer": "去年",
 			"info": "qùnián",
-			"second_language": "去年"
+			"question": "vorheriges Jahr"
 		},
 		{
-			"first_language": "Zeitung (normale Zeitung)",
+			"answer": "报纸",
 			"info": "bàozhǐ",
-			"second_language": "报纸"
+			"question": "Zeitung (normale Zeitung)"
 		},
 		{
-			"first_language": "Farbe, Erscheinung",
+			"answer": "颜色",
 			"info": "yánsè",
-			"second_language": "颜色"
+			"question": "Farbe, Erscheinung"
 		},
 		{
-			"first_language": "Flughafen",
+			"answer": "机场",
 			"info": "jīchǎng",
-			"second_language": "机场"
+			"question": "Flughafen"
 		},
 		{
-			"first_language": "ein Lied singen",
+			"answer": "唱歌",
 			"info": "chànggē",
-			"second_language": "唱歌"
+			"question": "ein Lied singen"
 		},
 		{
-			"first_language": "1000, Tausend",
+			"answer": "千",
 			"info": "qiān",
-			"second_language": "千"
+			"question": "1000, Tausend"
 		},
 		{
-			"first_language": "lecker",
+			"answer": "好吃",
 			"info": "hǎochī",
-			"second_language": "好吃"
+			"question": "lecker"
 		},
 		{
-			"first_language": "eine Pruefung schreiben, Pruefung",
+			"answer": "考试",
 			"info": "kǎoshì",
-			"second_language": "考试"
+			"question": "eine Pruefung schreiben, Pruefung"
 		},
 		{
-			"first_language": "links",
+			"answer": "左边",
 			"info": "zuǒbian",
-			"second_language": "左边"
+			"question": "links"
 		},
 		{
-			"first_language": "Nachname",
+			"answer": "姓",
 			"info": "xìng",
-			"second_language": "姓"
+			"question": "Nachname"
 		},
 		{
-			"first_language": "100, Hundert",
+			"answer": "百",
 			"info": "bǎi",
-			"second_language": "百"
+			"question": "100, Hundert"
 		},
 		{
-			"first_language": "Schnee",
+			"answer": "雪",
 			"info": "xuě",
-			"second_language": "雪"
+			"question": "Schnee"
 		},
 		{
-			"first_language": "teuer, wertvoll",
+			"answer": "贵",
 			"info": "guì",
-			"second_language": "贵"
+			"question": "teuer, wertvoll"
 		},
 		{
-			"first_language": "krank werden",
+			"answer": "生病",
 			"info": "shēngbìng",
-			"second_language": "生病"
+			"question": "krank werden"
 		},
 		{
-			"first_language": "schwimmen",
+			"answer": "游泳",
 			"info": "yóuyǒng",
-			"second_language": "游泳"
+			"question": "schwimmen"
 		},
 		{
-			"first_language": "Kuhmilch",
+			"answer": "牛奶",
 			"info": "niúnǎi",
-			"second_language": "牛奶"
+			"question": "Kuhmilch"
 		},
 		{
-			"first_language": "rechts",
+			"answer": "右边",
 			"info": "yòubian",
-			"second_language": "右边"
+			"question": "rechts"
 		},
 		{
-			"first_language": "billig, guenstig",
+			"answer": "便宜",
 			"info": "piányi",
-			"second_language": "便宜"
+			"question": "billig, guenstig"
 		},
 		{
-			"first_language": "aufstehen (aus dem Bett), aus dem Bett kommen",
+			"answer": "起床",
 			"info": "qǐchuang",
-			"second_language": "起床"
+			"question": "aufstehen (aus dem Bett), aus dem Bett kommen"
 		},
 		{
-			"first_language": "Huehnerei",
+			"answer": "鸡蛋",
 			"info": "jīdàn",
-			"second_language": "鸡蛋"
+			"question": "Huehnerei"
 		},
 		{
-			"first_language": "Thema, Problem",
+			"answer": "题",
 			"info": "tí",
-			"second_language": "题"
+			"question": "Thema, Problem"
 		},
 		{
-			"first_language": "0, Null",
+			"answer": "零",
 			"info": "líng",
-			"second_language": "零"
+			"question": "0, Null"
 		},
 		{
-			"first_language": "Armbanduhr",
+			"answer": "手表",
 			"info": "shǒubiǎo",
-			"second_language": "手表"
+			"question": "Armbanduhr"
 		},
 		{
-			"first_language": "Reise",
+			"answer": "旅游",
 			"info": "lǚyóu",
-			"second_language": "旅游"
+			"question": "Reise"
 		},
 		{
-			"first_language": "Kellner, Bedienung",
+			"answer": "服务员",
 			"info": "fúwùyuán",
-			"second_language": "服务员"
+			"question": "Kellner, Bedienung"
 		},
 		{
-			"first_language": "Gasthaus, Hotel",
+			"answer": "宾馆",
 			"info": "bīnguǎn",
-			"second_language": "宾馆"
+			"question": "Gasthaus, Hotel"
 		},
 		{
-			"first_language": "Klassenraum, Unterrichtszimmer",
+			"answer": "教室",
 			"info": "jiàoshì",
-			"second_language": "教室"
+			"question": "Klassenraum, Unterrichtszimmer"
 		},
 		{
-			"first_language": "rennen, joggen",
+			"answer": "跑步",
 			"info": "pǎobù",
-			"second_language": "跑步"
+			"question": "rennen, joggen"
 		},
 		{
-			"first_language": "Sonne, positiv",
+			"answer": "阴",
 			"info": "yáng",
-			"second_language": "阴"
+			"question": "Sonne, positiv"
 		},
 		{
-			"first_language": "Nudeln",
+			"answer": "面条",
 			"info": "miàntiáo",
-			"second_language": "面条"
+			"question": "Nudeln"
 		},
 		{
-			"first_language": "Stift, Bleistift",
+			"answer": "铅笔",
 			"info": "qiānbǐ",
-			"second_language": "铅笔"
+			"question": "Stift, Bleistift"
 		},
 		{
-			"first_language": "Bahnhof",
+			"answer": "火车站",
 			"info": "huǒchēzhàn",
-			"second_language": "火车站"
+			"question": "Bahnhof"
 		},
 		{
-			"first_language": "Wassermelone",
+			"answer": "西瓜",
 			"info": "xīguā",
-			"second_language": "西瓜"
+			"question": "Wassermelone"
 		},
 		{
-			"first_language": "Hammelfleisch, Schaffleisch",
+			"answer": "羊肉",
 			"info": "yángròu",
-			"second_language": "羊肉"
+			"question": "Hammelfleisch, Schaffleisch"
 		},
 		{
-			"first_language": "klar (Wetter)",
+			"answer": "晴",
 			"info": "qíng",
-			"second_language": "晴"
+			"question": "klar (Wetter)"
 		},
 		{
-			"first_language": "Bus",
+			"answer": "公共汽车",
 			"info": "gōnggòngqìchē",
-			"second_language": "公共汽车"
+			"question": "Bus"
 		},
 		{
-			"first_language": "Basketball spielen",
+			"answer": "打篮球",
 			"info": "dǎlánqiú",
-			"second_language": "打篮球"
+			"question": "Basketball spielen"
 		},
 		{
-			"first_language": "Fußball spielen",
+			"answer": "踢足球",
 			"info": "tīzúqiú",
-			"second_language": "踢足球"
+			"question": "Fußball spielen"
 		}
 	]
 }

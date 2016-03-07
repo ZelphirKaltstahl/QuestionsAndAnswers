@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <save_state>
-	<questions_file_path>./data/HSK2 German</questions_file_path>
-	<answers_file_path>./data/HSK2 Hanzi</answers_file_path>
-	<additional_info_file_path>./data/HSK2 Pinyin</additional_info_file_path>
+	<q_and_a_file_path>./data/HSK2.json</q_and_a_file_path>
 	<deactivated_questions/>
 	<training_process>+,+,+,+,+,+,+,+,+,+,+,-,-,-,+,?</training_process>
 </save_state>

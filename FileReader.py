@@ -1,3 +1,4 @@
+import json
 from Helper import truncate_number
 
 class FileReader:
@@ -11,3 +12,9 @@ class FileReader:
 			for line in file_object:
 				list_of_lines.append(line.strip())
 		return list_of_lines
+
+	def read_json(self, path_to_file):
+		q_and_a = {}
+		with open(path_to_file, 'r') as input_file:
+			q_and_a = json.load(input_file)
+		return q_and_a

@@ -46,7 +46,8 @@ class Statistic:
 			'% (correct answers): ' + str(percentage_correct_answers) + '%',
 			'% (correct answers): ' + str(percentage_wrong_answers) + '%',
 			'Longest streak (correct answers): ' + str(Statistic.calculate_longest_streak(training_process, ['+','d'])),
-			'Longest streak (wrong answers): ' + str(Statistic.calculate_longest_streak(training_process, ['-']))
+			'Longest streak (wrong answers): ' + str(Statistic.calculate_longest_streak(training_process, ['-'])),
+			'Deactivated questions: ' + str(training_process.count('d'))
 		]
 		boxed_lines = Statistic.box_lines(lines, title)
 		for line in boxed_lines: print(line)

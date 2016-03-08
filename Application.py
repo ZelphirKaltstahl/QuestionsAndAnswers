@@ -112,7 +112,12 @@ class Application:
 			elif user_input in ['save', 'write', 'persist']: self.save_state(ask_file_name=True)
 			elif user_input == 'stats': Statistic.print_stats(self.state.training_process)
 			
-			self.notify_input_event_subscribers(user_input, self.q_and_a.)  # TODO
+			self.notify_input_event_subscribers(
+				self.state.q_and_a_file_path,
+				random_index,
+				self.state.q_and_a['identifier'],
+				event=user_input
+			)
 
 	def quiz(self):
 		print('\n' + self.log_tag, 'Starting quiz ...', end='\n\n')
@@ -146,23 +151,23 @@ class Application:
 				subscriber.update()
 		else:
 			for subscriber in self.input_event_subscribers:
-				if user_input == '+':
+				if event == '+':
 					subscriber.update_on_correct(question_number)
-				elif user_input == '-':
+				elif event == '-':
 					subscriber.update_on_incorrect(question_number)
-				elif user_input == 'd':
+				elif event == 'd':
 					subscriber.update_on_deactivate(question_number)
-				elif user_input == '?':
+				elif event == '?':
 					subscriber.update_on_show_help()
-				elif user_input == 'all':
+				elif event == 'all':
 					subscriber.update_on_show_all()
-				elif user_input == 'stats':
+				elif event == 'stats':
 					subscriber.update_on_show_stats()
-				elif user_input in ['load', 'read', 'restore']:
+				elif event in ['load', 'read', 'restore']:
 					subscriber.update_on_load_training_state(file_path, question_set_identifier)
-				elif user_input in ['save', 'write', 'persist']:
+				elif event in ['save', 'write', 'persist']:
 					subscriber.update_on_save_training_state(file_path, question_set_identifier)
-				elif user_input == 'exit':
+				elif event == 'exit':
 					subscriber.update_on_exit()
 				
 	def unsubscribe_input_event_subscriber(self, subscriber):

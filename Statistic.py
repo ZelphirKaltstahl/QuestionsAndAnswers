@@ -54,6 +54,8 @@ class Statistic:
 
 	@staticmethod
 	def box_lines(lines, title):
+		"""This method draws a box around lines of text, using the unicode boy characters.
+		It is taking the length of all lines into account."""
 		title = ' ' + title + ' '
 		longest_line = 0
 		for line in lines:

@@ -1,6 +1,6 @@
 from abc import ABCMeta, abstractmethod
 
-class Observer:
+class InputObserver:
 	__metaclass__ = ABCMeta
 
 	@abstractmethod

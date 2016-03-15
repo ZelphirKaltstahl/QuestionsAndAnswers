@@ -1,4 +1,4 @@
-import sys
+import sys, os
 import random
 from collections import namedtuple
 from Helper import truncate_number
@@ -6,8 +6,9 @@ from xml_parser.XMLParserException import XMLParserException
 from FileReader import FileReader
 from Statistic import Statistic
 from TrainingState import TrainingState
-from DefaultInputEventObserver import DefaultInputEventObserver
-from StatisticsInputEventObserver import StatisticsInputEventObserver
+
+from InputObservers.DefaultInputEventObserver import DefaultInputEventObserver
+from InputObservers.StatisticsInputEventObserver import StatisticsInputEventObserver
 
 class Application:
 	"""docstring for Application"""
@@ -43,29 +44,27 @@ class Application:
 		self.quiz()
 
 	def load_state(self, ask_file_name=False):
+		file_name = 'training'  # set to default file name
+		
 		if ask_file_name:
 			file_name = input('Enter a file name (default: training_state):')
 			if file_name == '':
 				file_name = 'training'  # if the user enters nothing use default value
-		else:
-			file_name = 'training_state'  # set to default file name
-		file_name = 'data/' + file_name
-		file_name += '_state.json'  # always add file ending
-
-		self.state.load(file_name)
+		
+		file_path = self.extend_data_file_path(file_name, state=True)
+		self.state.load(file_path)
 
 	def save_state(self, ask_file_name=False):
+		file_name = 'training'
+
 		if ask_file_name:
 			file_name = input('Enter a file name (default: training_state):')
 			if file_name == '':
 				file_name = 'training'  # if the user enters nothing use default value
-		else:
-			file_name = 'training'
-		file_name = 'data/' + file_name
-		file_name += '_state.json'  # always add file ending
+		
+		file_path = self.extend_data_file_path(file_name, state=True)
 			
 		self.state.save(file_name)
-
 
 	def print_help(self):
 		print(
@@ -89,44 +88,40 @@ class Application:
 			random_index = random.randint(0, len(self.state.q_and_a['questions'])-1)
 		return random_index
 
-	# this method could be refactored to use dict of action objects, which implement an ABC with a required method execute, which executes the actions on specific inputs
 	def ask(self):
-		print(self.log_tag, 'asking a question')
 		random_index = self.get_random_index()
 		self.state.training_process.append('?')
 
-		while(True):
+		question_answered = False
+		while(not question_answered):
 			input("Translate: \"" + self.state.q_and_a['questions'][random_index]['question'] + "\"")
 
 			print('Answer: ', self.state.q_and_a['questions'][random_index]['answer'], ' (', self.state.q_and_a['questions'][random_index]['info'], ')', sep='')
 			user_input = input("Command ('?' for help):").lower()
 
-			# notify subscribers before return statements
-			# print(self.log_tag, 'Notifying input event subscribers ...')
 			self.notify_input_event_subscribers(
 				self.state.q_and_a_file_path,
 				random_index,
 				self.state.q_and_a['identifier'],
 				event=user_input
 			)
-			# print(self.log_tag, 'Input event subscribers Notified.')
 
 			if user_input == "d":
 				self.state.training_process[-1] = 'd'
 				self.state.deactivated_questions.append(random_index)
 				print(self.log_tag, 'Question deactivated.')
-				return
+				question_answered = True
 			elif user_input == "all":
 				self.print_all()
-				return
+				question_answered = True
 			elif user_input == 'exit': sys.exit(0)
 			elif user_input == '?': self.print_help()
 			elif user_input == '+':
 				self.state.training_process[-1] = '+'
-				return
+				question_answered = True
 			elif user_input == '-':
 				self.state.training_process[-1] = '-'
-				return
+				question_answered = True
 			elif user_input in ['load', 'read', 'restore']:
 				self.load_state(ask_file_name=True)
 				if random_index in self.state.deactivated_questions:
@@ -199,7 +194,12 @@ class Application:
 			self.input_event_subscribers.remove(subscriber)
 		except ValueError as error:
 			print(self.log_tag, 'Tried to remove subscriber, which does not exist in list of subscribers.')
-				
+	
+	def extend_data_file_path(self, file_name, state=False):
+		if state:
+			return os.path.join('data', file_name + '_state' + '.json')
+		else:
+			return os.path.join('data', file_name + '.json')
 				
 				
 				

@@ -1,7 +1,7 @@
 import os
 import json
 from datetime import datetime
-from InputObserver import InputObserver
+from InputObservers.InputObserver import InputObserver
 from decorators.overrides import overrides
 
 class StatisticsInputEventObserver(InputObserver):

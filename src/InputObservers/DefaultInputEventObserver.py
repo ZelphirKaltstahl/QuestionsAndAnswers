@@ -1,4 +1,4 @@
-from InputObserver import InputObserver
+from InputObservers.InputObserver import InputObserver
 from decorators.overrides import overrides
 
 class DefaultInputEventObserver(InputObserver):

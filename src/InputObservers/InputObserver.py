@@ -36,6 +36,10 @@ class InputObserver:
 		pass
 
 	@abstractmethod
+	def update_on_generate_charts(self):
+		pass
+
+	@abstractmethod
 	def update_on_exit(self):
 		pass
 

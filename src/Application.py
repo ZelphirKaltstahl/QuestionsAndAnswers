@@ -6,6 +6,7 @@ from xml_parser.XMLParserException import XMLParserException
 from FileReader import FileReader
 from Statistic import Statistic
 from TrainingState import TrainingState
+from InputObservers.ChartGenerator import ChartGenerator
 
 from InputObservers.DefaultInputEventObserver import DefaultInputEventObserver
 from InputObservers.StatisticsInputEventObserver import StatisticsInputEventObserver
@@ -29,10 +30,16 @@ class Application:
 		print(self.log_tag, 'adding subscribers for input events')
 		new_subscriber = DefaultInputEventObserver()
 		self.register_input_event_subscriber(new_subscriber)
+		print(self.log_tag, 'default input observer added as subscriber for input events')
 		
 		new_statistics_input_subscriber = StatisticsInputEventObserver()
 		self.register_input_event_subscriber(new_statistics_input_subscriber)
-		print(self.log_tag, 'subscribers for input events added')
+		print(self.log_tag, 'statistics input subscriber added as subscriber for input events')
+
+		chart_generator = ChartGenerator()
+		self.register_input_event_subscriber(chart_generator)
+		print(self.log_tag, 'chart generator added as subscriber for input events')
+
 
 		# Q&A Data
 		self.state.q_and_a = self.file_reader.read_json(q_and_a_file_path)
@@ -179,6 +186,8 @@ class Application:
 					subscriber.update_on_show_all()
 				elif event == 'stats':
 					subscriber.update_on_show_stats()
+				elif event in ['charts', 'plot', 'diagram', 'advice']:
+					subscriber.update_on_generate_charts()
 				elif event in ['load', 'read', 'restore']:
 					subscriber.update_on_load_training_state(file_path, question_set_identifier)
 				elif event in ['save', 'write', 'persist']:

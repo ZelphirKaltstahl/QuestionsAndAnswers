@@ -14,7 +14,7 @@ class FileReader:
 		return list_of_lines
 
 	def read_json(self, path_to_file):
-		q_and_a = {}
+		json_content = {}
 		with open(path_to_file, 'r') as input_file:
-			q_and_a = json.load(input_file)
-		return q_and_a
+			json_content = json.load(input_file)
+		return json_content

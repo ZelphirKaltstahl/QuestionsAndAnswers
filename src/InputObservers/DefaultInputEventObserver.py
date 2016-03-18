@@ -41,6 +41,10 @@ class DefaultInputEventObserver(InputObserver):
 		pass
 
 	@overrides(InputObserver)
+	def update_on_generate_charts(self):
+		pass
+
+	@overrides(InputObserver)
 	def update_on_exit(self):
 		pass
 

@@ -1,1 +1,1 @@
-py.test --strict -v -m unit test
+py.test --strict -r w -v -m unit test

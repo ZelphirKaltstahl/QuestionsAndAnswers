@@ -19,11 +19,6 @@ test_training_state_name = 'test'
 
 class TestFileReader:
 	"""test class for the Application class"""
-	
-	def __init__(self):
-		self.file_reader = None
-		self.file_path = None
-
 	def setup(self):
 		pass
 
@@ -91,9 +86,8 @@ class TestFileReader:
 			"question": "du"
 		})
 
-		with open(file_path, 'w') as output_file:
+		with open(self.file_path, 'w') as output_file:
 			json.dump(json_content, output_file, ensure_ascii=False, indent='\t', sort_keys=True)
 
-		with open(file_path, 'r') as input_file:
-			read_json_content = self.file_reader.read_json(self.file_reader)
-			assert json_content == read_json_content, 'JSON content was not loaded correctly.'
+		read_json_content = self.file_reader.read_json(self.file_path)
+		assert json_content == read_json_content, 'JSON content was not loaded correctly.'

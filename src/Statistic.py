@@ -1,4 +1,4 @@
-from Helper import truncate_number
+from helpers.number_helper import truncate_number
 from math import floor
 
 class Statistic:

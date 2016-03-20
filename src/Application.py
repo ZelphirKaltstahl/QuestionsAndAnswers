@@ -1,15 +1,17 @@
 import sys, os
 import random
 from collections import namedtuple
-from Helper import truncate_number
+
 from xml_parser.XMLParserException import XMLParserException
 from FileReader import FileReader
 from Statistic import Statistic
 from TrainingState import TrainingState
-from InputObservers.ChartGenerator import ChartGenerator
 
+from InputObservers.ChartGenerator import ChartGenerator
 from InputObservers.DefaultInputEventObserver import DefaultInputEventObserver
 from InputObservers.StatisticsInputEventObserver import StatisticsInputEventObserver
+
+from helpers.number_helper import truncate_number
 
 class Application:
 	"""docstring for Application"""
@@ -71,7 +73,7 @@ class Application:
 		
 		file_path = self.extend_data_file_path(file_name, state=True)
 			
-		self.state.save(file_name)
+		self.state.save(file_path)
 
 	def print_help(self):
 		print(

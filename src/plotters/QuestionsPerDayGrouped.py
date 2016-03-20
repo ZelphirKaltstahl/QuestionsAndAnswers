@@ -7,7 +7,7 @@ from matplotlib.backends.backend_pdf import PdfPages
 
 from helpers.directory_helper import file_path_in_data_dir
 from helpers.statistics_helper import get_sorted_dates, get_sorted_date_strings, get_question_count
-from helpers.color_helper import get_colors
+from helpers.color_helper import get_colors, color_list
 
 from datetime import datetime
 
@@ -36,7 +36,7 @@ class QuestionsPerDayGrouped:
 
 		dates = get_sorted_dates(stats)
 		date_strings = get_sorted_date_strings(stats)
-		colors = get_colors(len(q_and_a_set_identifiers))
+		#colors = get_colors(len(q_and_a_set_identifiers))
 
 		raw_data = {}
 		
@@ -72,7 +72,7 @@ class QuestionsPerDayGrouped:
 			# print(self.log_tag, 'Values for', identifier, values)
 			ax.bar(
 				dates, values, 
-				align='center', width=bar_width, label=identifier, alpha=0.5, color=colors[index], bottom=margin_bottom, linewidth=1
+				align='center', width=bar_width, label=identifier, alpha=0.7, color=color_list[index], bottom=margin_bottom, linewidth=1
 			)
 			margin_bottom += values
 			# print(self.log_tag, 'margin_bottom:', margin_bottom)
@@ -82,7 +82,7 @@ class QuestionsPerDayGrouped:
 
 		fig.autofmt_xdate(bottom=0.2, rotation=75, ha='right')  # format the whole figure automatically
 
-		today = datetime.now().strftime('%Y-%m-%d')
+		today = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 		ax.set_title('Questions per Day (on ' + today + ')')
 		ax.set_xlabel('Dates')
 		ax.set_ylabel('Questions')

@@ -1,5 +1,4 @@
 import json
-from Helper import truncate_number
 
 class FileReader:
 	"""The FileReader is a class whose instances can read files."""

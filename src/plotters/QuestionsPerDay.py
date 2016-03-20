@@ -44,7 +44,7 @@ class QuestionsPerDay:
 		ax.axhline(y=np.mean(questions_counts), label='Average', linestyle='--')  # plot the average line
 		ax.fill_between(dates, 0, questions_counts, facecolor='#FF0000', alpha=0.1)  # color area beneath the line
 
-		today = datetime.now().strftime('%Y-%m-%d')
+		today = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 		ax.set_title('Questions per Day (on ' + today + ')')
 		ax.set_xlabel('Dates')
 		ax.set_ylabel('Questions')
@@ -66,3 +66,7 @@ class QuestionsPerDay:
 			doc_meta['Keywords'] = 'Questions Daily Day Answers'
 			doc_meta['CreationDate'] = datetime.now()
 			doc_meta['ModDate'] = datetime.now()
+
+	def format_axes(self, ax):
+
+		return ax

@@ -381,7 +381,7 @@ class TestApplication:
 
 	@pytest.mark.unit
 	def test_save_training_state(self, created_test_application, created_test_training_state):
-		Application.input = lambda x: created_test_application.extend_data_file_path(test_training_state_name, state=True)
+		Application.input = lambda x: test_training_state_name
 		created_test_application.state = created_test_training_state
 		created_test_application.save_state(ask_file_name=True)
 
